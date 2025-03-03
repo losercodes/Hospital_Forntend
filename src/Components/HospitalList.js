@@ -39,6 +39,7 @@ const HospitalList = () => {
                 <option value="Delhi">Delhi</option>
                 <option value="Mumbai">Mumbai</option>
                 <option value="Chennai">Chennai</option>
+                <option value="Patna">Chennai</option>
             </select>
 
             {loading && <p>Loading hospitals...</p>}
