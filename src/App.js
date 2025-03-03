@@ -13,14 +13,14 @@ import "./App.css";
 function App() {
     return (
         <Router>
-            <Navbar/>
+            <Navbar />
             <Routes>
                 <Route path="/" element={<HospitalList />} />
                 <Route path="/add-hospital" element={<HospitalForm />} />
                 <Route path="/hospitalDetails/:id" element={<HospitalDetails />} />
                 <Route path="/editDetails/:id" element={<EditHospital />} />
                 <Route path="/deleteHospital/:id" element={<DeleteHospital />} />
-                <Route path="/ signup" element={<Signup />} />
+                <Route path="/signup" element={<Signup />} />  {/* Fixed Here */}
                 <Route path="/login" element={<Login />} />
             </Routes>
         </Router>
